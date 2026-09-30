@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Google" => "cocoapods@google.com" }
   s.platform     = :ios, "15.5"
   s.swift_version = "5.7"
-  s.source       = { :http => "https://github.com/iwater/google-mlkit-ios-arm64-simulator/releases/download/v1.0.1/MLKitFaceDetection.xcframework.zip" }
+  s.source       = { :http => "https://github.com/DevengerDev/google-mlkit-ios-arm64-simulator/releases/download/v1.0.2/MLKitFaceDetection.xcframework.zip" }
   s.vendored_frameworks = "MLKitFaceDetection.xcframework"
   s.resource_bundles = { "GoogleMVFaceDetectorResources" => ["Resources/GoogleMVFaceDetectorResources/**"] }
   s.frameworks = ["Accelerate", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "Foundation", "UIKit"]
